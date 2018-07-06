@@ -1,0 +1,26 @@
+{
+  "name": "tailwindcss-text-indent",
+  "version": "0.1.0",
+  "description": "This plugin adds utilities to use text-indent with Tailwind CSS.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacknug/tailwindcss-text-indent.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind css",
+    "tailwindcss-plugin",
+    "plugin"
+  ],
+  "author": "Nestor Vera <nestorvera@me.com> (https://nestor.rip)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacknug/tailwindcss-text-indent/issues"
+  },
+  "homepage": "https://github.com/hacknug/tailwindcss-text-indent#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
