@@ -1,5 +1,7 @@
 # Tailwind CSS Text Indent Plugin
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hacknug/tailwindcss-text-indent.svg)](https://greenkeeper.io/)
+
 This plugin adds utilities to use text-indent with Tailwind CSS.
 
 ## Installation
