@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss-text-indent",
   "version": "0.1.0",
-  "description": "This plugin adds utilities to use text-indent with Tailwind CSS.",
+  "description": "Text-indent utilities for Tailwind CSS.",
   "main": "index.js",
   "repository": {
     "type": "git",
