@@ -25,14 +25,14 @@ yarn add -D tailwindcss-text-indent
   theme: { // defaults to these values
     textIndent: (theme, { negative }) => ({
       ...{
-        // sm: '120px',
-        // md: '240px',
-        // lg: '360px',
+        sm: '2rem',
+        md: '3rem',
+        lg: '4rem',
       },
       ...negative({
-        // sm: '120px',
-        // md: '240px',
-        // lg: '360px',
+        sm: '2rem',
+        md: '3rem',
+        lg: '4rem',
       }),
     }),
   },
