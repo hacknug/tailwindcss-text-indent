@@ -7,6 +7,9 @@ This plugin adds utilities to use text-indent with Tailwind CSS.
 Add this plugin to your project:
 
 ```bash
+# Install using pnpm
+pnpm install --save-dev tailwindcss-text-indent
+
 # Install using npm
 npm install --save-dev tailwindcss-text-indent
 
@@ -16,31 +19,39 @@ yarn add -D tailwindcss-text-indent
 
 ## Usage
 
-Because the plugin preprends a dash to the class name when the value is negative, if you want both positive and negative classes to share the same name, you'll have to require the plugin twice. If you have a better idea on how to deal with this, feel free to open an issue to discuss it.
-
 ```js
-require('tailwindcss-text-indent')({
-  indents: {
-    'sm': '2rem',
-    'md': '3rem',
-    'lg': '4rem',
+// tailwind.config.js
+{
+  theme: { // defaults to these values
+    textIndent: (theme, { negative }) => ({
+      ...{
+        // sm: '120px',
+        // md: '240px',
+        // lg: '360px',
+      },
+      ...negative({
+        // sm: '120px',
+        // md: '240px',
+        // lg: '360px',
+      }),
+    }),
   },
-  variants: ['responsive'],
-})
-require('tailwindcss-text-indent')({
-  indents: {
-    'sm': '-2rem',
-    'md': '-3rem',
-    'lg': '-4rem',
+
+  variants: { // all the following default to ['responsive']
+    textIndent: ['responsive'],
   },
-  variants: ['responsive'],
-})
+
+  plugins: [
+    require('tailwindcss-text-indent')(), // no options to configure
+  ],
+}
 ```
 
 ```css
 .indent-sm { text-indent: 2rem; }
 .indent-md { text-indent: 3rem; }
 .indent-lg { text-indent: 4rem; }
+
 .-indent-sm { text-indent: -2rem; }
 .-indent-md { text-indent: -3rem; }
 .-indent-lg { text-indent: -4rem; }
