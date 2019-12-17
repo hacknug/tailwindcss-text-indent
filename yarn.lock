@@ -2475,8 +2475,8 @@ postcss@^6.0.9:
     supports-color "^5.4.0"
 
 postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.17:
-  version "7.0.24"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.24.tgz#972c3c5be431b32e40caefe6c81b5a19117704c2"
+  version "7.0.25"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.25.tgz#dd2a2a753d50b13bed7a2009b4a18ac14d9db21e"
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
