@@ -2682,8 +2682,8 @@ postcss@^6.0.9:
     supports-color "^5.4.0"
 
 postcss@^8.0.9:
-  version "8.0.9"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.0.9.tgz#d112fc1e8bbed550657901550fa736ae3dd25ec5"
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.2.tgz#9731fcaa4f7b0bef47121821bdae9eeb609a324c"
   dependencies:
     colorette "^1.2.1"
     line-column "^1.0.2"
