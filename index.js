@@ -5,6 +5,8 @@ const flatten = require('flat')
 const FLATTEN_CONFIG = { delimiter: '-', maxDepth: 2 }
 const handleName = (name, className) => {
   const split = name.split(`${className}-`)
+  split[1] = split[1].replace('.', '\\.')
+
   const prefixedName = `${split[0]}${prefixNegativeModifiers(className, split[1])}`
 
   return prefixedName.split('-default').join('')
