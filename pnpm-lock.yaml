@@ -21,10 +21,10 @@ devDependencies:
     version: 1.1.0
   postcss:
     specifier: ^8.0.9
-    version: 8.4.33
+    version: 8.4.38
   tailwindcss:
     specifier: ^2.2.4
-    version: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.33)
+    version: 2.2.19(autoprefixer@10.4.14)(postcss@8.4.38)
 
 packages:
 
@@ -812,7 +812,7 @@ packages:
       sprintf-js: 1.0.3
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.33):
+  /autoprefixer@10.4.14(postcss@8.4.38):
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -824,7 +824,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.33
+      postcss: 8.4.38
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -2307,10 +2307,10 @@ packages:
     engines: {node: '>=10.0'}
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.33
+      postcss: 8.4.38
     dev: true
 
-  /postcss-load-config@3.1.4(postcss@8.4.33):
+  /postcss-load-config@3.1.4(postcss@8.4.38):
     resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
     engines: {node: '>= 10'}
     peerDependencies:
@@ -2323,17 +2323,17 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.33
+      postcss: 8.4.38
       yaml: 1.10.2
     dev: true
 
-  /postcss-nested@5.0.6(postcss@8.4.33):
+  /postcss-nested@5.0.6(postcss@8.4.38):
     resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.33
+      postcss: 8.4.38
       postcss-selector-parser: 6.0.13
     dev: true
 
@@ -2353,13 +2353,13 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.33:
-    resolution: {integrity: sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==}
+  /postcss@8.4.38:
+    resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.0.0
-      source-map-js: 1.0.2
+      source-map-js: 1.2.0
     dev: true
 
   /pretty-format@29.7.0:
@@ -2394,7 +2394,7 @@ packages:
     dependencies:
       commander: 8.3.0
       glob: 7.2.3
-      postcss: 8.4.33
+      postcss: 8.4.38
       postcss-selector-parser: 6.0.13
     dev: true
 
@@ -2531,8 +2531,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /source-map-js@1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+  /source-map-js@1.2.0:
+    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -2624,7 +2624,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss@2.2.19(autoprefixer@10.4.14)(postcss@8.4.33):
+  /tailwindcss@2.2.19(autoprefixer@10.4.14)(postcss@8.4.38):
     resolution: {integrity: sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -2633,7 +2633,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
-      autoprefixer: 10.4.14(postcss@8.4.33)
+      autoprefixer: 10.4.14(postcss@8.4.38)
       bytes: 3.1.0
       chalk: 4.1.2
       chokidar: 3.5.3
@@ -2654,10 +2654,10 @@ packages:
       node-emoji: 1.11.0
       normalize-path: 3.0.0
       object-hash: 2.2.0
-      postcss: 8.4.33
+      postcss: 8.4.38
       postcss-js: 3.0.3
-      postcss-load-config: 3.1.4(postcss@8.4.33)
-      postcss-nested: 5.0.6(postcss@8.4.33)
+      postcss-load-config: 3.1.4(postcss@8.4.38)
+      postcss-nested: 5.0.6(postcss@8.4.38)
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
       pretty-hrtime: 1.0.3
